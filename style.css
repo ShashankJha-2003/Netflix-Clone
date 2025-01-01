@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(Assets/images/bg.jpg);
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    min-height: 100px;
+}
+
+.box {
+    height: 290vh;
+    width: 100%;
+    opacity: 0.77;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+
+}
+
+img {
+    color: rgb(255, 0, 0);
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 10;
+    font-family: "Martel Sans", serif;
+    gap: 20px;
+    padding-bottom: 200px;
+    padding-top: 600px;
+}
+
+.hero> :first-child {
+    font-weight: bolder;
+    font-size: 55px;
+    padding-top: 200px;
+    line-height: 70px;
+    max-width: 650px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: grey;
+}
+
+.btn {
+    padding: 7px 35px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 17px 48px;
+    border-radius: 5px;
+    font-size: large;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    padding-left: 6px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.main input {
+    padding: 19px 85px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+    border: 1px solid white;
+}
+
+h2 {
+    padding-top: 90px;
+    padding-right: 1000px;
+    
+}
+
+button.A {
+    padding: 7px 150px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    cursor: pointer;
+    border: 1px solid white;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+}
+
+button.B {
+    padding: 7px 144px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    cursor: pointer;
+    margin-left: 15px;
+    border: 1px solid white;
+    display: flex;
+    margin-top: 5px;
+}
+
+.secimg {
+    margin-top: 35px;
+    height: 15px;
+    display: flex;
+    position: absolute;
+    height: 200px;
+    margin-left: 10px;
+    justify-content: space-evenly
+}
+
+.secimg2 {
+    margin-top: 200px;
+    margin-left: 60px;
+
+}
+
+.card:hover {
+    transform: scale(1.07);
+    /* Scale up slightly */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Add a shadow */
+    transition: transform 0.5s;
+
+}
+
+button{
+   background-color: rgb(30, 0, 65);
+   font-size:large;
+   margin-top: 10px;
+   margin-left: 60px;
+   border-radius: 13px;
+   padding-bottom: 100px;
+   padding-right: 100px;
+   padding-left: 100px;
+   padding-top: 20px;
+   color: white;
+   border: 0;
+}
+
